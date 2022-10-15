@@ -1,0 +1,66 @@
+html,
+body {
+  background-color: #ffeead;
+  margin: 10px;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.container {
+    border: 1px solid #666;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 90px);
+    grid-template-rows: repeat(2, 90px);
+    grid-gap: 5px;
+}
+  
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #ffeead;
+    text-transform: uppercase;
+}
+  
+.container > div:nth-child(1n) {
+    background-color: #06d6a0;
+}
+  
+.container > div:nth-child(3n) {
+    background-color: #118ab2;
+}
+  
+.container > div:nth-child(2n) {
+    background-color: #ef476f;
+}
+  
+.container > div:nth-child(4n) {
+    background-color: #ffd166;
+}
+.container > div:nth-child(5n) {
+    background-color: #7648cb;
+}
+.container > div:nth-child(6n) {
+    background-color: #16d0ddd9;
+    justify-self: center;
+    align-self: start;
+    width: 90px;
+    height: 90px;
+}
+.container > div:nth-child(7n) {
+    background-color: #5f57ed;
+}
+.container > div:nth-child(8n) {
+    background-color: #c2315f56;
+}
+.container > div:nth-child(9n) {
+    background-color: #814e15dc;
+}
+  
+.container > div:nth-child(10n) {
+    background-color: #246521dc;
+}
+  
